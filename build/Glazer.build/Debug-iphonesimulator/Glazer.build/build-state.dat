@@ -1,13 +1,17 @@
 TGlazer
 v7
 r0
-t292796455.781716
+t292799887.247813
 cCheck dependencies
 cProcessInfoPlistFile /Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app/Info.plist Glazer-Info.plist
 cCompileXIB /Users/mark/Development/iPhone/Glazer/MainWindow.xib
 cCompileXIB /Users/mark/Development/iPhone/Glazer/News.xib
 cCompileXIB /Users/mark/Development/iPhone/Glazer/Games.xib
 cCompileXIB /Users/mark/Development/iPhone/Glazer/MyProfile.xib
+cCpResource build/Debug-iphonesimulator/Glazer.app/Bildli.png ../../../Desktop/Bildli.png
+cCpResource build/Debug-iphonesimulator/Glazer.app/small_clock.png ../../../Downloads/small_clock.png
+cCpResource build/Debug-iphonesimulator/Glazer.app/profile.png ../../../Downloads/profile.png
+cCpResource build/Debug-iphonesimulator/Glazer.app/news.png ../../../Downloads/news.png
 cProcessPCH /var/folders/mN/mNnE70LQGQWaAIB4CtDwXk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Glazer_Prefix-ainltkqvobtpjofsqiejguzvdvzt/Glazer_Prefix.pch.gch Glazer_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Glazer.build/Debug-iphonesimulator/Glazer.build/Objects-normal/i386/main.o /Users/mark/Development/iPhone/Glazer/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Glazer.build/Debug-iphonesimulator/Glazer.build/Objects-normal/i386/GlazerAppDelegate.o /Users/mark/Development/iPhone/Glazer/Classes/GlazerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
@@ -47,6 +51,51 @@ N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1
 c000000004B2B62B500000000016721E0
 t1261134517
 s23536096
+
+N/Users/mark/Development/iPhone/Glazer/../../../Desktop/Bildli.png
+c000000004BC387F100000000000051EF
+t1271105521
+s20975
+
+N/Users/mark/Development/iPhone/Glazer/../../../Downloads/1271106273_schedule_scan.png
+c000000004BC38AE10000000000001409
+t1271106273
+s5129
+
+N/Users/mark/Development/iPhone/Glazer/../../../Downloads/clock.png
+c000000004BC38CA70000000000000F15
+t1271106727
+s3861
+
+N/Users/mark/Development/iPhone/Glazer/../../../Downloads/myProfile.png
+c000000004BC388A400000000000010CB
+t1271105700
+s4299
+
+N/Users/mark/Development/iPhone/Glazer/../../../Downloads/news.png
+c000000004BC38DDD00000000000004B2
+t1271107037
+s1202
+
+N/Users/mark/Development/iPhone/Glazer/../../../Downloads/profile.png
+c000000004BC38D57000000000000103C
+t1271106903
+s4156
+
+N/Users/mark/Development/iPhone/Glazer/../../../Downloads/schedNew.png
+c000000004BC38AE10000000000001409
+t1271106273
+s5129
+
+N/Users/mark/Development/iPhone/Glazer/../../../Downloads/schedule.png
+c000000004BC389CB0000000000001A97
+t1271105995
+s6807
+
+N/Users/mark/Development/iPhone/Glazer/../../../Downloads/small_clock.png
+c000000004BC38CEB00000000000008C2
+t1271106795
+s2242
 
 N/Users/mark/Development/iPhone/Glazer/Classes/FirstViewController.h
 c000000004BC360F000000000000000EB
@@ -134,14 +183,14 @@ i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
 N/Users/mark/Development/iPhone/Glazer/MainWindow.xib
-c000000004BC37FCF0000000000006DC8
-t1271103439
-s28104
+c000000004BC38E04000000000000720D
+t1271107076
+s29197
 
 N/Users/mark/Development/iPhone/Glazer/MyProfile.xib
-c000000004BC3805A00000000000042EB
-t1271103578
-s17131
+c000000004BC388200000000000006608
+t1271105568
+s26120
 
 N/Users/mark/Development/iPhone/Glazer/News
 c000000004BC360F00000000000004BF9
@@ -159,12 +208,20 @@ t1271095536
 s19449
 
 N/Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app
-t1271103583
-s340
+t1271107087
+s612
 
 N/Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app.dSYM
 t1271103270
 s102
+
+N/Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app/1271106273_schedule_scan.png
+t2
+s0
+
+N/Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app/Bildli.png
+t1271105582
+s20975
 
 N/Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app/Games.nib
 t1271103162
@@ -179,12 +236,12 @@ t1271095645
 s589
 
 N/Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app/MainWindow.nib
-t1271103583
-s2757
+t1271107087
+s3025
 
 N/Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app/MyProfile.nib
-t1271103583
-s1676
+t1271105582
+s3286
 
 N/Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app/News
 t2
@@ -201,6 +258,34 @@ s8
 N/Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app/SecondView.nib
 t1271095645
 s2515
+
+N/Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app/clock.png
+t1271106771
+s3861
+
+N/Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app/myProfile.png
+t1271105764
+s4299
+
+N/Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app/news.png
+t1271107086
+s1202
+
+N/Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app/profile.png
+t1271106975
+s4156
+
+N/Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app/schedNew.png
+t1271106335
+s5129
+
+N/Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app/schedule.png
+t1271106057
+s6807
+
+N/Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app/small_clock.png
+t1271106855
+s2242
 
 N/Users/mark/Development/iPhone/Glazer/build/Glazer.build/Debug-iphonesimulator/Glazer.build/Objects-normal/i386/FirstViewController.o
 t1271095646
@@ -256,7 +341,7 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies292796455#292796455#0(0"0(0#1#0"4300911832#0"0#
+lSLF07#2@18"Check dependencies292799886#292799886#0(0"0(0#1#0"4300911832#0"0#
 
 CCompileC build/Glazer.build/Debug-iphonesimulator/Glazer.build/Objects-normal/i386/FirstViewController.o /Users/mark/Development/iPhone/Glazer/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s292788446.691241
@@ -354,20 +439,20 @@ x/Users/mark/Development/iPhone/Glazer/Games.xib
 lSLF07#2@20"CompileXIB Games.xib292795962#292795962#0(0"0(0#0#47"/Users/mark/Development/iPhone/Glazer/Games.xib4300911832#468"    cd /Users/mark/Development/iPhone/Glazer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app/Games.nib /Users/mark/Development/iPhone/Glazer/Games.xib0#
 
 CCompileXIB /Users/mark/Development/iPhone/Glazer/MainWindow.xib
-s292796383.489556
-e292796383.892490
+s292799886.861987
+e292799887.243927
 r1
 xCompileXIB
 x/Users/mark/Development/iPhone/Glazer/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib292796383#292796383#0(0"0(0#0#52"/Users/mark/Development/iPhone/Glazer/MainWindow.xib4300911832#478"    cd /Users/mark/Development/iPhone/Glazer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app/MainWindow.nib /Users/mark/Development/iPhone/Glazer/MainWindow.xib0#
+lSLF07#2@25"CompileXIB MainWindow.xib292799886#292799887#0(0"0(0#0#52"/Users/mark/Development/iPhone/Glazer/MainWindow.xib4300911832#478"    cd /Users/mark/Development/iPhone/Glazer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app/MainWindow.nib /Users/mark/Development/iPhone/Glazer/MainWindow.xib0#
 
 CCompileXIB /Users/mark/Development/iPhone/Glazer/MyProfile.xib
-s292796383.490656
-e292796383.892649
+s292798382.539069
+e292798382.979500
 r1
 xCompileXIB
 x/Users/mark/Development/iPhone/Glazer/MyProfile.xib
-lSLF07#2@24"CompileXIB MyProfile.xib292796383#292796383#0(0"0(0#0#51"/Users/mark/Development/iPhone/Glazer/MyProfile.xib4300911832#476"    cd /Users/mark/Development/iPhone/Glazer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app/MyProfile.nib /Users/mark/Development/iPhone/Glazer/MyProfile.xib0#
+lSLF07#2@24"CompileXIB MyProfile.xib292798382#292798382#0(0"0(0#0#51"/Users/mark/Development/iPhone/Glazer/MyProfile.xib4300911832#476"    cd /Users/mark/Development/iPhone/Glazer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app/MyProfile.nib /Users/mark/Development/iPhone/Glazer/MyProfile.xib0#
 
 CCompileXIB /Users/mark/Development/iPhone/Glazer/News.xib
 s292795962.431685
@@ -385,8 +470,83 @@ xCompileXIB
 x/Users/mark/Development/iPhone/Glazer/SecondView.xib
 lSLF07#2@25"CompileXIB SecondView.xib292788445#292788445#0(0"0(0#0#52"/Users/mark/Development/iPhone/Glazer/SecondView.xib4300911832#478"    cd /Users/mark/Development/iPhone/Glazer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app/SecondView.nib /Users/mark/Development/iPhone/Glazer/SecondView.xib0#
 
+CCpResource build/Debug-iphonesimulator/Glazer.app/1271106273_schedule_scan.png ../../../Downloads/1271106273_schedule_scan.png
+r0
+
+CCpResource build/Debug-iphonesimulator/Glazer.app/Bildli.png ../../../Desktop/Bildli.png
+s292798382.552095
+e292798382.599061
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Glazer.app/Bildli.png
+x../../../Desktop/Bildli.png
+lSLF07#2@32"Copy ../../../Desktop/Bildli.png292798382#292798382#0(0"0(0#0#65"/Users/mark/Development/iPhone/Glazer/../../../Desktop/Bildli.png4300911832#467"    cd /Users/mark/Development/iPhone/Glazer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/mark/Development/iPhone/Glazer/../../../Desktop/Bildli.png /Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app0#
+
 CCpResource build/Debug-iphonesimulator/Glazer.app/News News
 r0
+
+CCpResource build/Debug-iphonesimulator/Glazer.app/clock.png ../../../Downloads/clock.png
+s292799571.592806
+e292799571.641496
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Glazer.app/clock.png
+x../../../Downloads/clock.png
+lSLF07#2@33"Copy ../../../Downloads/clock.png292799571#292799571#0(0"0(0#0#66"/Users/mark/Development/iPhone/Glazer/../../../Downloads/clock.png4300911832#468"    cd /Users/mark/Development/iPhone/Glazer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/mark/Development/iPhone/Glazer/../../../Downloads/clock.png /Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app0#
+
+CCpResource build/Debug-iphonesimulator/Glazer.app/myProfile.png ../../../Downloads/myProfile.png
+s292798564.399381
+e292798564.411193
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Glazer.app/myProfile.png
+x../../../Downloads/myProfile.png
+lSLF07#2@37"Copy ../../../Downloads/myProfile.png292798564#292798564#0(0"0(0#0#70"/Users/mark/Development/iPhone/Glazer/../../../Downloads/myProfile.png4300911832#472"    cd /Users/mark/Development/iPhone/Glazer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/mark/Development/iPhone/Glazer/../../../Downloads/myProfile.png /Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app0#
+
+CCpResource build/Debug-iphonesimulator/Glazer.app/news.png ../../../Downloads/news.png
+s292799886.863347
+e292799886.874118
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Glazer.app/news.png
+x../../../Downloads/news.png
+lSLF07#2@32"Copy ../../../Downloads/news.png292799886#292799886#0(0"0(0#0#65"/Users/mark/Development/iPhone/Glazer/../../../Downloads/news.png4300911832#467"    cd /Users/mark/Development/iPhone/Glazer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/mark/Development/iPhone/Glazer/../../../Downloads/news.png /Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app0#
+
+CCpResource build/Debug-iphonesimulator/Glazer.app/profile.png ../../../Downloads/profile.png
+s292799775.072026
+e292799775.093307
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Glazer.app/profile.png
+x../../../Downloads/profile.png
+lSLF07#2@35"Copy ../../../Downloads/profile.png292799775#292799775#0(0"0(0#0#68"/Users/mark/Development/iPhone/Glazer/../../../Downloads/profile.png4300911832#470"    cd /Users/mark/Development/iPhone/Glazer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/mark/Development/iPhone/Glazer/../../../Downloads/profile.png /Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app0#
+
+CCpResource build/Debug-iphonesimulator/Glazer.app/schedNew.png ../../../Downloads/schedNew.png
+s292799135.317891
+e292799135.346538
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Glazer.app/schedNew.png
+x../../../Downloads/schedNew.png
+lSLF07#2@36"Copy ../../../Downloads/schedNew.png292799135#292799135#0(0"0(0#0#69"/Users/mark/Development/iPhone/Glazer/../../../Downloads/schedNew.png4300911832#471"    cd /Users/mark/Development/iPhone/Glazer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/mark/Development/iPhone/Glazer/../../../Downloads/schedNew.png /Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app0#
+
+CCpResource build/Debug-iphonesimulator/Glazer.app/schedule.png ../../../Downloads/schedule.png
+s292798857.970166
+e292798857.995955
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Glazer.app/schedule.png
+x../../../Downloads/schedule.png
+lSLF07#2@36"Copy ../../../Downloads/schedule.png292798857#292798857#0(0"0(0#0#69"/Users/mark/Development/iPhone/Glazer/../../../Downloads/schedule.png4300911832#471"    cd /Users/mark/Development/iPhone/Glazer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/mark/Development/iPhone/Glazer/../../../Downloads/schedule.png /Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app0#
+
+CCpResource build/Debug-iphonesimulator/Glazer.app/small_clock.png ../../../Downloads/small_clock.png
+s292799655.708311
+e292799655.734840
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Glazer.app/small_clock.png
+x../../../Downloads/small_clock.png
+lSLF07#2@39"Copy ../../../Downloads/small_clock.png292799655#292799655#0(0"0(0#0#72"/Users/mark/Development/iPhone/Glazer/../../../Downloads/small_clock.png4300911832#474"    cd /Users/mark/Development/iPhone/Glazer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/mark/Development/iPhone/Glazer/../../../Downloads/small_clock.png /Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app0#
 
 CGenerateDSYMFile /Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app.dSYM /Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app/Glazer
 s292796069.989249
@@ -430,10 +590,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@28"Precompile Glazer_Prefix.pch292788445#292788446#0(0"0(0#0#55"/Users/mark/Development/iPhone/Glazer/Glazer_Prefix.pch4300911832#1722"    cd /Users/mark/Development/iPhone/Glazer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/Development/iPhone/Glazer/build/Glazer.build/Debug-iphonesimulator/Glazer.build/Glazer-generated-files.hmap -I/Users/mark/Development/iPhone/Glazer/build/Glazer.build/Debug-iphonesimulator/Glazer.build/Glazer-own-target-headers.hmap -I/Users/mark/Development/iPhone/Glazer/build/Glazer.build/Debug-iphonesimulator/Glazer.build/Glazer-all-target-headers.hmap -iquote /Users/mark/Development/iPhone/Glazer/build/Glazer.build/Debug-iphonesimulator/Glazer.build/Glazer-project-headers.hmap -F/Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator -I/Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/include -I/Users/mark/Development/iPhone/Glazer/build/Glazer.build/Debug-iphonesimulator/Glazer.build/DerivedSources/i386 -I/Users/mark/Development/iPhone/Glazer/build/Glazer.build/Debug-iphonesimulator/Glazer.build/DerivedSources -c /Users/mark/Development/iPhone/Glazer/Glazer_Prefix.pch -o /var/folders/mN/mNnE70LQGQWaAIB4CtDwXk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Glazer_Prefix-ainltkqvobtpjofsqiejguzvdvzt/Glazer_Prefix.pch.gch0#
 
 CTouch /Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app
-s292796383.893503
-e292796383.896861
+s292799887.244717
+e292799887.247773
 r1
 xTouch
 x/Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app
-lSLF07#2@82"Touch /Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app292796383#292796383#0(0"0(0#0#0"4300911832#275"    cd /Users/mark/Development/iPhone/Glazer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app0#
+lSLF07#2@82"Touch /Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app292799887#292799887#0(0"0(0#0#0"4300911832#275"    cd /Users/mark/Development/iPhone/Glazer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/mark/Development/iPhone/Glazer/build/Debug-iphonesimulator/Glazer.app0#
 

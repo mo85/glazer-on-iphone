@@ -19,6 +19,10 @@
 		4D2E0B5911739E0400D0AACF /* NewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E0B5811739E0400D0AACF /* NewsController.m */; };
 		4D2E0B5C11739E2300D0AACF /* GamesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E0B5B11739E2300D0AACF /* GamesController.m */; };
 		4DD4776B1173B72A00D73B2A /* MyProfile.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD4776A1173B72A00D73B2A /* MyProfile.xib */; };
+		4DD4777C1173BF8D00D73B2A /* Bildli.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD4777B1173BF8D00D73B2A /* Bildli.png */; };
+		4DD477991173C48D00D73B2A /* small_clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD477981173C48D00D73B2A /* small_clock.png */; };
+		4DD4779D1173C4F800D73B2A /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD4779C1173C4F800D73B2A /* profile.png */; };
+		4DD477A11173C57400D73B2A /* news.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD477A01173C57400D73B2A /* news.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,10 @@
 		4D2E0B5A11739E2300D0AACF /* GamesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamesController.h; sourceTree = "<group>"; };
 		4D2E0B5B11739E2300D0AACF /* GamesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamesController.m; sourceTree = "<group>"; };
 		4DD4776A1173B72A00D73B2A /* MyProfile.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyProfile.xib; sourceTree = "<group>"; };
+		4DD4777B1173BF8D00D73B2A /* Bildli.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bildli.png; path = ../../../Desktop/Bildli.png; sourceTree = SOURCE_ROOT; };
+		4DD477981173C48D00D73B2A /* small_clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = small_clock.png; path = ../../../Downloads/small_clock.png; sourceTree = SOURCE_ROOT; };
+		4DD4779C1173C4F800D73B2A /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile.png; path = ../../../Downloads/profile.png; sourceTree = SOURCE_ROOT; };
+		4DD477A01173C57400D73B2A /* news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = news.png; path = ../../../Downloads/news.png; sourceTree = SOURCE_ROOT; };
 		8D1107310486CEB800E47090 /* Glazer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Glazer-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +112,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4DD477741173BEC800D73B2A /* images */,
 				282CCBFD0DB6C98000C4EA27 /* News.xib */,
 				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* Glazer-Info.plist */,
@@ -121,6 +130,17 @@
 				288765070DF74369002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DD477741173BEC800D73B2A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				4DD477A01173C57400D73B2A /* news.png */,
+				4DD4779C1173C4F800D73B2A /* profile.png */,
+				4DD477981173C48D00D73B2A /* small_clock.png */,
+				4DD4777B1173BF8D00D73B2A /* Bildli.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +189,10 @@
 				282CCBFE0DB6C98000C4EA27 /* News.xib in Resources */,
 				4D2E0B1A1173993B00D0AACF /* Games.xib in Resources */,
 				4DD4776B1173B72A00D73B2A /* MyProfile.xib in Resources */,
+				4DD4777C1173BF8D00D73B2A /* Bildli.png in Resources */,
+				4DD477991173C48D00D73B2A /* small_clock.png in Resources */,
+				4DD4779D1173C4F800D73B2A /* profile.png in Resources */,
+				4DD477A11173C57400D73B2A /* news.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
